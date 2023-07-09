@@ -5,7 +5,7 @@ with super;
 let 
     haxe = 
         with rec {
-            version = "4.0.5";
+            version = "4.3.1";
             haxeTarLink = 
                 "https://github.com/HaxeFoundation/haxe/releases/download/${version}/haxe-${version}-linux64.tar.gz";
             haxeTar = 
@@ -42,7 +42,7 @@ let
             meta = 
                 with stdenv.lib;
                 {
-                    description = "Haxe 4.0.5";
+                    description = "Haxe 4.3.1";
                     homepage = https://haxe.org/;
                     license = licenses.gpl2Plus;
                     maintainers = with stdenv.lib.maintainers; [ ];
